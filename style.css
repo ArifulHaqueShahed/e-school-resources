@@ -50,12 +50,25 @@ small{
     border-radius: 33px;
     color: white;
 }
+.started-button:hover{
+    height: 53px;
+    width: 163px;
+    font-size: 20px;
+    background-color: #21B573;
+    border: #21B573;
+    border-radius: 33px;
+    color: white;
+}
 #Books .card-deck .card{
     height: 250px;
     border: none;
     background-color: #F8FFFB;
     border-radius: 10px;
     padding-top: 40px;
+}
+#Books .card-deck .card:hover{
+    box-shadow: 5px 5px 20px gray;
+
 }
 #Books .card-deck .second-card{
     background-color: white;
@@ -93,10 +106,19 @@ h2{
 }
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 .btn-design{
     height: 35px;
     width: 137px;
+    border-radius: 33px;
+    border: #21B573;
+    background-color: #21B573;
+    color: white;
+}
+.btn-design:hover{
+    height: 40px;
+    width: 147px;
     border-radius: 33px;
     border: #21B573;
     background-color: #21B573;
@@ -134,3 +156,69 @@ p{
 #Courses{
     padding-bottom: 120px;
 }
+.testimonial-image{
+    height: 120px;
+    width: 120px;
+}
+.testimonial{
+    display: flex;
+    margin-top: 50px;
+    position: absolute;
+    left: 300px;
+    
+}
+.testimonial-p{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.testimonial-section{
+    font-weight: 600;
+}
+.last{
+    height: 420px;
+    width: 100%;
+    background-color: #282531;
+    margin-top: 270px;
+    flex-wrap: wrap;
+    
+}
+.last-p{
+    color: white;
+}
+.col-md-5{
+    height: 369px;
+}
+h4{
+    color: white;
+}
+h6{
+    color: white;
+    font-weight: 400;
+}
+#carouselExampleSlidesOnly2{
+    background-color: #282531;
+    
+    
+}
+.lasted{
+    margin-top: 300px;
+    padding-bottom: 0px;
+    
+    
+}
+.row{
+    display: flex;
+}
+.last-p2{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+@media (max-width: 300px) {
+
+    .last .row{
+        flex-direction: column;
+    }
+   
+   }
